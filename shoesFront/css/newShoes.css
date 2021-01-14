@@ -1,0 +1,145 @@
+h1,h2,h3,h4,h5,h5,p,a{
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    scroll-behavior: unset;
+    background-size: 100%;
+    background-image: url("../img/background4.png");
+  }
+
+.conteiner{
+    width: 100%;
+    height: auto;
+    display: block;
+    /*background: #212121;*/
+}
+
+.title{
+    font-size: 3vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.body{
+    display: flex;
+    width: 90%;
+    height: 32vw;
+    justify-content: center;
+    margin-top: 5%;
+    background: white;
+    margin-left: 5%;
+}
+
+.body .left{
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.body .left .min{
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-top: 2%;
+    color:  rgba(0, 0, 0, 0.322);
+}
+
+.body .left .input{
+    width: 80%;
+    height: 3vw;
+    border-bottom: .2vw solid rgba(0, 0, 0, 0.322);
+    transition: ease-in-out .3s;
+}
+
+.body .left .input:focus{
+    outline: none;
+    border-bottom: .2vw solid #f0daa0;
+}
+
+.body .left .textarea{
+    margin-top: 5%;
+    width: 80%;
+    height: 4vw;
+    resize: none;
+    border-bottom: .2vw  solid  rgba(0, 0, 0, 0.322);
+    border-right: .2vw  solid  rgba(0, 0, 0, 0.322);
+    border-radius: .3vw;
+}
+
+.body .left .textarea:focus{
+    outline: none;
+    border-bottom: .2vw  solid  #f0daa0;
+    border-right: .2vw  solid  #f0daa0;
+}
+
+.body .rigth{
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.body .rigth .min{
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-top: 2%;
+    color:  rgba(0, 0, 0, 0.322);
+}
+
+.body .rigth .img{
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+
+.body .rigth .color{
+    padding: 0;
+    width: 25%;
+    height: 3vw;
+    background: transparent;
+    margin-top: 5%;
+}
+
+.foot{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+button{
+    margin-top: 2%;
+    width: 20%;
+    height: 3vw;
+    border: .2vw solid  #333333;
+    border-radius: 2vw;
+    background: transparent;
+    font-size: 1.7vw;
+    color:  #333333;
+    font-weight: 500;
+}
+
+.save{
+    margin-left: 50%;
+}
+
+.back{
+    margin-left: 5%;
+}
+
+button:focus{
+    outline: none;
+    background:   #333333;
+    color: white;
+}

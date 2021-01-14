@@ -1,0 +1,264 @@
+h1,h2,h3,h4,h5,h5,p,a{
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: unset;
+    background-image: url("../img/background3.png");
+    background-size: 100%;
+
+  }
+
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: block;
+    /*background: #212121;*/
+}
+
+.navbar{
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .seccions{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin-top: .5%;
+}
+
+.navbar .seccions .links{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.315);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+    transition: ease-in .3S;
+}
+
+.navbar .seccions .links:hover{
+    color: white;
+}
+
+.navbar .seccions .search{
+    width: 50%;
+    background: #3c434b67;
+    border:1px solid #3c434b79;
+    border-radius: .2vw;
+    color: #ffffff;
+    font-size: 100%;
+    padding: .7%;
+}
+
+.navbar .seccions .search:focus{
+    outline: none;
+    border:1px solid #3c434b79;
+}
+
+.navbar .seccions .btn{
+    background: #464d546b;
+    padding: 1%;
+    color: #ffffff;
+    font-size: 80%;
+    border:1px solid #3c434b79;
+    margin-left: -.6%;
+}
+
+.navbar .seccions .btn:focus{
+    outline: none;
+    background: #ffffff;
+    color: #3c434b;
+}
+
+.body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 5%;
+}
+
+.carousel{
+    width: 70%;
+    border: none;
+}
+
+ #shoeback{
+    margin-top: 5%;
+    width: 40%;
+    height: 20vw;
+    margin-left: 5%;
+    transform: rotate(-40deg);
+    position: absolute;
+    transition: ease .2s;
+}
+
+#red{
+    background: red;
+    width: 1.2vw;
+    height: 1.2vw;
+    border: 1vw solid red;
+    border-radius: 25vw;
+    margin-left: 60vw;
+    margin-top: 5vw;
+}
+
+button:focus{
+    outline: none;
+    border: .2vw solid rgba(0, 0, 0, 0.623);
+}
+
+#black{
+    background:black;
+    width: 1.2vw;
+    height: 1.2vw;
+    border: 1vw solid black;
+    border-radius: 25vw;
+    margin-left: 60vw;
+    margin-top: 5vw;
+}
+
+#white{
+    background: white;
+    width: 1.2vw;
+    height: 1.2vw;
+    border: 1vw solid white;
+    border-radius: 25vw;
+    margin-left: 60vw;
+    margin-top: 5vw;
+}
+
+.body .seccions2{
+    width: 20%;  
+    height: auto; 
+    margin-left: 3%;
+    display: block !important;
+}
+
+.body .seccions2 .title{
+    font-size: 5vw;
+    color: white;
+}
+
+.body .seccions2 .price{
+    margin-top: .5vw;
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    color: darkgoldenrod;
+}
+
+.body .seccions2 .view{
+    font-size: 1.2vw;
+    padding: 4% 15%;
+    text-decoration: none;
+    color: white;
+    border: .1vw solid white;
+    border-radius: 30vw;
+    transition: ease-in .5s;
+}
+
+.body .seccions2 .view:hover{
+    border: none;
+    background: #ffffffd3;
+    color: #3c434b;
+}
+
+.body .seccions2 .rojo{
+    margin-top: 8vw;
+    width: 10%;
+    height: 5%;
+    padding: 2%;
+    background: red;
+    border: .2vw soldi red;
+    border-radius: 50vw;
+}
+
+.body .seccions2 .negro{
+    margin-top: 3vw;
+    width: 10%;
+    height: 5%;
+    padding: 2%;
+    background: black;
+    border: .2vw soldi black;
+    border-radius: 50vw;
+}
+
+.body .seccions2 .negro:focus{
+    width: 1%;
+}
+
+.body .seccions2 .blanco{
+    margin-top: 3vw;
+    width: 10%;
+    height: 5%;
+    padding: 2%;
+    background:white;
+    border: .2vw soldi white;
+    border-radius: 50vw;
+}
+
+.products{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 15%;
+    justify-content: space-around;
+}
+
+.products .shoe{
+    width: 23%;
+    height: auto;
+    display: flex;
+    background: white;
+    border: 1px solid white;
+    border-radius: 1vw 0vw;
+    justify-content: space-between;
+    overflow: hidden;
+    opacity: .9;
+    transition: ease-out .3s;
+}
+
+.products .shoe:hover{
+    border-radius: 0vw 1vw;
+    opacity: 1;
+    box-shadow: 0 0 .3vw .1vw white ;
+}
+
+.products .shoe .part{
+    width: 40%;
+}
+
+.products .shoe .part1{
+    width: 45%;
+    background: #baecce;
+    border: 1px solid #baecce;
+}
+
+.products .shoe .part1 .img{
+    width: 100%;
+    height: auto;
+}
+
+.products .shoe .part .title{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.products .shoe .part .price{
+    font-size: 1.2vw;
+    font-weight: 400;
+}
