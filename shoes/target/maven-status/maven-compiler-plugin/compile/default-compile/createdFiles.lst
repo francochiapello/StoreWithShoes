@@ -1,0 +1,7 @@
+com\shoestore\shoes\ShoesApplication.class
+com\shoestore\shoes\domain\Sizes.class
+com\shoestore\shoes\domain\Color.class
+com\shoestore\shoes\domain\Shoes.class
+com\shoestore\shoes\controller\MainController.class
+com\shoestore\shoes\domain\Photo.class
+com\shoestore\shoes\service\ShoesService.class
